@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="London Harley Street Women & Fertility Centre, Chennai — 31+ years of expert care in Gynecology, IVF, Fertility, High-Risk Pregnancy & Fetal Medicine. International standards, compassionate care.">
+<meta name="keywords" content="fertility centre Chennai, IVF Chennai, gynecologist Chennai, high risk pregnancy, fetal medicine, Harley Street, Perungudi, Thalambur">
+<title>London Harley Street Women & Fertility Centre | Chennai</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ivory: #FAFBFF;
+    --deep-navy: #0D1B3E;
+    --royal-blue: #1A3A6B;
+    --mid-blue: #2B5C9E;
+    --sky-blue: #4A90D9;
+    --powder-blue: #C8DEFF;
+    --blush: #F4E8F0;
+    --gold: #C4A55A;
+    --gold-light: #E8D4A0;
+    --text-dark: #0D1B3E;
+    --text-mid: #3A4D6B;
+    --text-light: #7A8BAA;
+    --white: #FFFFFF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text-dark);
+    background: var(--ivory);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(26,58,107,0.08);
+    padding: 0 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    height: 72px;
+    transition: all 0.3s ease;
+  }
+  .nav-logo {
+    display: flex; align-items: center; gap: 14px;
+  }
+  .nav-logo-icon {
+    width: 44px; height: 44px;
+    background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+    border-radius: 10px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 22px;
+  }
+  .nav-logo-text { line-height: 1.2; }
+  .nav-logo-text strong {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px; font-weight: 600;
+    color: var(--deep-navy); display: block;
+  }
+  .nav-logo-text span {
+    font-size: 11px; color: var(--text-light); letter-spacing: 0.04em;
+  }
+  .nav-links {
+    display: flex; gap: 32px; list-style: none; align-items: center;
+  }
+  .nav-links a {
+    text-decoration: none; color: var(--text-mid);
+    font-size: 13.5px; font-weight: 500; letter-spacing: 0.02em;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover { color: var(--mid-blue); }
+  .nav-cta {
+    background: linear-gradient(135deg, var(--royal-blue), var(--mid-blue));
+    color: white !important;
+    padding: 10px 22px; border-radius: 50px;
+    font-size: 13px !important; font-weight: 600 !important;
+    transition: transform 0.2s, box-shadow 0.2s !important;
+  }
+  .nav-cta:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(26,58,107,0.3);
+  }
+  .hamburger {
+    display: none; flex-direction: column; gap: 5px; cursor: pointer;
+    background: none; border: none; padding: 4px;
+  }
+  .hamburger span { width: 24px; height: 2px; background: var(--deep-navy); border-radius: 2px; display: block; }
+  .mobile-menu {
+    display: none; position: fixed; top: 72px; left: 0; right: 0; bottom: 0;
+    background: white; z-index: 999; padding: 32px 24px;
+    flex-direction: column; gap: 8px;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    padding: 14px 0; border-bottom: 1px solid #f0f0f0;
+    text-decoration: none; color: var(--text-dark); font-size: 16px; font-weight: 500;
+  }
+  .mobile-cta-btn {
+    margin-top: 16px;
+    background: linear-gradient(135deg, var(--royal-blue), var(--mid-blue));
+    color: white !important; text-align: center; border-radius: 12px;
+    padding: 16px !important; border: none !important; font-weight: 600 !important;
+  }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    background: linear-gradient(160deg, #0D1B3E 0%, #1A3A6B 45%, #2B5C9E 80%, #4A90D9 100%);
+    position: relative; overflow: hidden;
+    display: flex; align-items: center;
+    padding-top: 72px;
+  }
+  .hero-orb {
+    position: absolute; border-radius: 50%;
+    background: radial-gradient(circle, rgba(74,144,217,0.25) 0%, transparent 70%);
+    animation: float 8s ease-in-out infinite;
+  }
+  .hero-orb-1 { width: 600px; height: 600px; top: -150px; right: -100px; animation-delay: 0s; }
+  .hero-orb-2 { width: 400px; height: 400px; bottom: -100px; left: -80px; animation-delay: 3s; }
+  .hero-orb-3 { width: 250px; height: 250px; top: 40%; right: 30%; animation-delay: 6s; }
+  @keyframes float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-20px) scale(1.05); }
+  }
+  .hero-pattern {
+    position: absolute; inset: 0; opacity: 0.04;
+    background-image: radial-gradient(circle, white 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .hero-inner {
+    position: relative; z-index: 2;
+    width: 90%; max-width: 1200px; margin: 0 auto;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 60px;
+    align-items: center; padding: 80px 0;
+  }
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(255,255,255,0.12); backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.2);
+    padding: 8px 18px; border-radius: 50px;
+    color: var(--gold-light); font-size: 12px; font-weight: 500;
+    letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 24px; width: fit-content;
+  }
+  .hero-badge::before { content: '✦'; font-size: 10px; }
+  .hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(38px, 5vw, 64px);
+    font-weight: 300; color: white; line-height: 1.15; margin-bottom: 24px;
+  }
+  .hero-title em {
+    font-style: italic; color: var(--gold-light);
+  }
+  .hero-subtitle {
+    font-size: 16px; line-height: 1.75; color: rgba(255,255,255,0.75);
+    margin-bottom: 40px; max-width: 480px;
+  }
+  .hero-actions {
+    display: flex; gap: 16px; flex-wrap: wrap;
+  }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--gold) 0%, #A8893A 100%);
+    color: white; padding: 16px 32px; border-radius: 50px; border: none;
+    font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 600;
+    cursor: pointer; transition: all 0.3s; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 8px;
+    box-shadow: 0 8px 32px rgba(196,165,90,0.35);
+  }
+  .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 12px 40px rgba(196,165,90,0.45); }
+  .btn-outline-white {
+    background: rgba(255,255,255,0.1); backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white; padding: 16px 32px; border-radius: 50px;
+    font-family: 'DM Sans', sans-serif; font-size: 15px; font-weight: 500;
+    cursor: pointer; transition: all 0.3s; text-decoration: none;
+    display: inline-flex; align-items: center; gap: 8px;
+  }
+  .btn-outline-white:hover { background: rgba(255,255,255,0.2); }
+  .hero-stats {
+    display: flex; gap: 32px; margin-top: 52px;
+    padding-top: 32px; border-top: 1px solid rgba(255,255,255,0.12);
+  }
+  .hero-stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 34px; font-weight: 600; color: white; line-height: 1;
+  }
+  .hero-stat-label {
+    font-size: 12px; color: rgba(255,255,255,0.6); margin-top: 4px;
+    letter-spacing: 0.04em;
+  }
+  .hero-visual {
+    display: flex; flex-direction: column; gap: 16px;
+  }
+  .hero-card {
+    background: rgba(255,255,255,0.1); backdrop-filter: blur(20px);
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 20px; padding: 24px 28px;
+    display: flex; align-items: center; gap: 18px;
+    transition: transform 0.3s;
+  }
+  .hero-card:hover { transform: translateX(-6px); }
+  .hero-card-icon {
+    width: 52px; height: 52px; border-radius: 14px;
+    background: linear-gradient(135deg, rgba(74,144,217,0.4), rgba(26,58,107,0.6));
+    display: flex; align-items: center; justify-content: center;
+    font-size: 24px; flex-shrink: 0;
+  }
+  .hero-card-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; font-weight: 600; color: white;
+  }
+  .hero-card-sub { font-size: 13px; color: rgba(255,255,255,0.6); margin-top: 4px; }
+
+  /* ── SECTION COMMONS ── */
+  section { position: relative; }
+  .section-inner { width: 90%; max-width: 1200px; margin: 0 auto; }
+  .section-eyebrow {
+    font-size: 11.5px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--mid-blue); font-weight: 600; margin-bottom: 14px;
+    display: flex; align-items: center; gap: 10px;
+  }
+  .section-eyebrow::after {
+    content: ''; display: block; width: 40px; height: 1px; background: var(--mid-blue); opacity: 0.4;
+  }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(30px, 4vw, 48px); font-weight: 300;
+    color: var(--deep-navy); line-height: 1.25; margin-bottom: 18px;
+  }
+  .section-title em { font-style: italic; color: var(--mid-blue); }
+  .section-lead {
+    font-size: 16px; line-height: 1.75; color: var(--text-mid); max-width: 580px;
+  }
+
+  /* ── ABOUT ── */
+  #about {
+    padding: 100px 0;
+    background: white;
+  }
+  .about-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+  }
+  .about-visual {
+    position: relative;
+  }
+  .about-img-bg {
+    width: 100%; aspect-ratio: 4/5; border-radius: 28px;
+    background: linear-gradient(160deg, var(--powder-blue) 0%, #D4E8FF 40%, var(--blush) 100%);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .about-img-inner {
+    width: 85%; height: 85%; border-radius: 20px;
+    background: linear-gradient(140deg, #1A3A6B, #4A90D9);
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center; gap: 12px;
+    padding: 32px;
+  }
+  .about-img-icon { font-size: 72px; opacity: 0.9; }
+  .about-img-caption {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px; font-weight: 300; color: white; text-align: center; line-height: 1.4;
+  }
+  .about-float-badge {
+    position: absolute; bottom: -20px; right: -20px;
+    background: white; border-radius: 20px; padding: 20px 24px;
+    box-shadow: 0 20px 60px rgba(13,27,62,0.12);
+    text-align: center; min-width: 150px;
+  }
+  .about-float-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px; font-weight: 600; color: var(--royal-blue); line-height: 1;
+  }
+  .about-float-label { font-size: 12px; color: var(--text-light); margin-top: 4px; }
+  .about-pillars {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 36px;
+  }
+  .pillar {
+    background: var(--ivory); border-radius: 16px; padding: 20px;
+    border-left: 3px solid var(--powder-blue);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  .pillar:hover { border-color: var(--mid-blue); box-shadow: 0 8px 24px rgba(26,58,107,0.08); }
+  .pillar-icon { font-size: 24px; margin-bottom: 10px; }
+  .pillar-title { font-size: 14px; font-weight: 600; color: var(--deep-navy); margin-bottom: 4px; }
+  .pillar-text { font-size: 13px; color: var(--text-mid); line-height: 1.55; }
+
+  /* ── DOCTORS ── */
+  #doctors {
+    padding: 100px 0;
+    background: linear-gradient(180deg, var(--ivory) 0%, #EEF4FF 100%);
+  }
+  .doctors-header { text-align: center; margin-bottom: 60px; }
+  .doctors-header .section-eyebrow { justify-content: center; }
+  .doctors-header .section-eyebrow::after { display: none; }
+  .doctors-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+  }
+  .doctor-card {
+    background: white; border-radius: 24px; overflow: hidden;
+    box-shadow: 0 4px 24px rgba(13,27,62,0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .doctor-card:hover { transform: translateY(-8px); box-shadow: 0 20px 60px rgba(13,27,62,0.12); }
+  .doctor-photo {
+    height: 220px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 80px; position: relative; overflow: hidden;
+  }
+  .doctor-photo-1 { background: linear-gradient(135deg, #C8DEFF, #A8C8FF); }
+  .doctor-photo-2 { background: linear-gradient(135deg, #F4E8F0, #EAD4E8); }
+  .doctor-photo-3 { background: linear-gradient(135deg, #D4EDE4, #B8DDD0); }
+  .doctor-body { padding: 24px; }
+  .doctor-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px; font-weight: 600; color: var(--deep-navy); margin-bottom: 4px;
+  }
+  .doctor-title {
+    font-size: 12px; color: var(--mid-blue); font-weight: 600;
+    letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 10px;
+  }
+  .doctor-quals { font-size: 13px; color: var(--text-light); line-height: 1.6; margin-bottom: 16px; }
+  .doctor-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .doctor-tag {
+    background: var(--powder-blue); color: var(--royal-blue);
+    font-size: 11.5px; font-weight: 500; padding: 5px 12px; border-radius: 50px;
+  }
+
+  /* ── SERVICES ── */
+  #services {
+    padding: 100px 0;
+    background: var(--deep-navy);
+    position: relative; overflow: hidden;
+  }
+  .services-bg-orb {
+    position: absolute; border-radius: 50%;
+    background: radial-gradient(circle, rgba(74,144,217,0.15) 0%, transparent 70%);
+  }
+  .services-bg-orb-1 { width: 500px; height: 500px; top: -100px; right: -100px; }
+  .services-bg-orb-2 { width: 350px; height: 350px; bottom: -80px; left: -60px; }
+  .services-header { margin-bottom: 60px; }
+  .services-header .section-eyebrow { color: var(--gold-light); }
+  .services-header .section-eyebrow::after { background: var(--gold-light); }
+  .services-header .section-title { color: white; }
+  .services-header .section-lead { color: rgba(255,255,255,0.65); }
+  .services-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+    position: relative; z-index: 2;
+  }
+  .service-card {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 20px; padding: 32px 28px;
+    transition: all 0.35s; cursor: pointer;
+    position: relative; overflow: hidden;
+  }
+  .service-card::before {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(135deg, rgba(74,144,217,0.15), rgba(26,58,107,0.1));
+    opacity: 0; transition: opacity 0.35s;
+  }
+  .service-card:hover { border-color: rgba(74,144,217,0.4); transform: translateY(-4px); }
+  .service-card:hover::before { opacity: 1; }
+  .service-icon {
+    width: 56px; height: 56px; border-radius: 16px; margin-bottom: 20px;
+    background: linear-gradient(135deg, rgba(74,144,217,0.3), rgba(26,58,107,0.5));
+    display: flex; align-items: center; justify-content: center; font-size: 26px;
+    position: relative; z-index: 1;
+  }
+  .service-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px; font-weight: 600; color: white;
+    margin-bottom: 12px; line-height: 1.3; position: relative; z-index: 1;
+  }
+  .service-desc {
+    font-size: 14px; line-height: 1.7; color: rgba(255,255,255,0.6);
+    position: relative; z-index: 1;
+  }
+  .service-link {
+    display: inline-flex; align-items: center; gap: 6px;
+    color: var(--sky-blue); font-size: 13px; font-weight: 600;
+    margin-top: 20px; text-decoration: none; position: relative; z-index: 1;
+    transition: gap 0.2s;
+  }
+  .service-link:hover { gap: 10px; }
+
+  /* ── WHY CHOOSE US ── */
+  #why {
+    padding: 100px 0;
+    background: white;
+  }
+  .why-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center;
+  }
+  .why-features { display: flex; flex-direction: column; gap: 24px; }
+  .why-feature {
+    display: flex; gap: 20px; align-items: flex-start;
+    padding: 24px; border-radius: 18px;
+    background: var(--ivory); border: 1px solid transparent;
+    transition: all 0.3s;
+  }
+  .why-feature:hover {
+    border-color: var(--powder-blue);
+    box-shadow: 0 8px 32px rgba(26,58,107,0.07);
+    background: white;
+  }
+  .why-icon {
+    width: 50px; height: 50px; border-radius: 14px; flex-shrink: 0;
+    background: linear-gradient(135deg, var(--powder-blue), #A8C8FF);
+    display: flex; align-items: center; justify-content: center; font-size: 22px;
+  }
+  .why-feature-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 600; color: var(--deep-navy); margin-bottom: 6px;
+  }
+  .why-feature-text { font-size: 14px; color: var(--text-mid); line-height: 1.65; }
+  .why-visual {
+    background: linear-gradient(160deg, var(--deep-navy), var(--royal-blue) 60%, var(--mid-blue));
+    border-radius: 28px; padding: 52px 40px; text-align: center; color: white;
+    position: relative; overflow: hidden;
+  }
+  .why-visual::before {
+    content: ''; position: absolute; inset: 0;
+    background: radial-gradient(circle at 70% 30%, rgba(74,144,217,0.3) 0%, transparent 60%);
+  }
+  .why-visual-inner { position: relative; z-index: 1; }
+  .why-visual-icon { font-size: 80px; margin-bottom: 24px; }
+  .why-visual-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px; font-weight: 300; line-height: 1.3; margin-bottom: 20px;
+  }
+  .why-visual-title em { font-style: italic; color: var(--gold-light); }
+  .why-visual-text { font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.75); margin-bottom: 32px; }
+  .why-accred {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;
+  }
+  .accred-badge {
+    background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 50px; padding: 8px 18px;
+    font-size: 12px; font-weight: 600; letter-spacing: 0.05em;
+    color: var(--gold-light);
+  }
+
+  /* ── STATS ── */
+  #stats {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--royal-blue), var(--mid-blue));
+    position: relative; overflow: hidden;
+  }
+  #stats::before {
+    content: ''; position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.06) 1px, transparent 1px);
+    background-size: 36px 36px;
+  }
+  .stats-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px;
+    position: relative; z-index: 1;
+  }
+  .stat-item { text-align: center; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 58px; font-weight: 300; color: white; line-height: 1;
+    margin-bottom: 6px;
+  }
+  .stat-num span { color: var(--gold-light); }
+  .stat-label { font-size: 14px; color: rgba(255,255,255,0.7); letter-spacing: 0.04em; }
+  .stat-divider {
+    width: 1px; background: rgba(255,255,255,0.15);
+    align-self: stretch; margin: auto 0;
+  }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials {
+    padding: 100px 0;
+    background: var(--ivory);
+  }
+  .testimonials-header { text-align: center; margin-bottom: 60px; }
+  .testimonials-header .section-eyebrow { justify-content: center; }
+  .testimonials-header .section-eyebrow::after { display: none; }
+  .testimonials-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px;
+  }
+  .testimonial-card {
+    background: white; border-radius: 24px; padding: 32px;
+    box-shadow: 0 4px 24px rgba(13,27,62,0.05);
+    border: 1px solid rgba(13,27,62,0.05);
+    position: relative; transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .testimonial-card:hover { transform: translateY(-4px); box-shadow: 0 16px 48px rgba(13,27,62,0.1); }
+  .testimonial-card.featured {
+    background: linear-gradient(160deg, var(--royal-blue), var(--mid-blue));
+    border-color: transparent;
+  }
+  .quote-icon {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px; line-height: 0.8; color: var(--powder-blue);
+    margin-bottom: 16px; display: block;
+  }
+  .testimonial-card.featured .quote-icon { color: rgba(255,255,255,0.25); }
+  .testimonial-text {
+    font-size: 15px; line-height: 1.75; color: var(--text-mid);
+    font-style: italic; margin-bottom: 24px;
+  }
+  .testimonial-card.featured .testimonial-text { color: rgba(255,255,255,0.85); }
+  .testimonial-author { display: flex; align-items: center; gap: 14px; }
+  .author-avatar {
+    width: 44px; height: 44px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; flex-shrink: 0;
+  }
+  .av-1 { background: #F4E8F0; }
+  .av-2 { background: #C8DEFF; }
+  .av-3 { background: #D4EDE4; }
+  .av-4 { background: #FFE8CC; }
+  .author-name {
+    font-size: 14px; font-weight: 600; color: var(--deep-navy); margin-bottom: 2px;
+  }
+  .testimonial-card.featured .author-name { color: white; }
+  .author-label { font-size: 12px; color: var(--text-light); }
+  .testimonial-card.featured .author-label { color: rgba(255,255,255,0.6); }
+  .stars { color: var(--gold); font-size: 13px; margin-bottom: 16px; letter-spacing: 2px; }
+
+  /* ── BLOGS ── */
+  #blogs {
+    padding: 100px 0;
+    background: white;
+  }
+  .blogs-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 48px; }
+  .blogs-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px;
+  }
+  .blog-card {
+    border-radius: 20px; overflow: hidden;
+    border: 1px solid rgba(13,27,62,0.06);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: white;
+  }
+  .blog-card:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(13,27,62,0.1); }
+  .blog-thumb {
+    height: 180px;
+    display: flex; align-items: center; justify-content: center; font-size: 56px;
+  }
+  .blog-thumb-1 { background: linear-gradient(135deg, #EEF4FF, #C8DEFF); }
+  .blog-thumb-2 { background: linear-gradient(135deg, #F4E8F0, #EAD4E8); }
+  .blog-thumb-3 { background: linear-gradient(135deg, #EFF8F2, #CCE8D4); }
+  .blog-body { padding: 24px; }
+  .blog-tag {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--mid-blue); margin-bottom: 10px; display: block;
+  }
+  .blog-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; font-weight: 600; color: var(--deep-navy);
+    line-height: 1.35; margin-bottom: 10px;
+  }
+  .blog-excerpt { font-size: 13.5px; color: var(--text-mid); line-height: 1.65; margin-bottom: 16px; }
+  .blog-meta { display: flex; justify-content: space-between; align-items: center; }
+  .blog-date { font-size: 12px; color: var(--text-light); }
+  .blog-read {
+    font-size: 13px; color: var(--mid-blue); font-weight: 600;
+    text-decoration: none; display: flex; align-items: center; gap: 4px;
+  }
+
+  /* ── LOCATIONS ── */
+  #locations {
+    padding: 100px 0;
+    background: linear-gradient(180deg, #EEF4FF 0%, var(--ivory) 100%);
+  }
+  .locations-header { text-align: center; margin-bottom: 60px; }
+  .locations-header .section-eyebrow { justify-content: center; }
+  .locations-header .section-eyebrow::after { display: none; }
+  .locations-grid {
+    display: grid; grid-template-columns: repeat(2, 1fr); gap: 32px;
+  }
+  .location-card {
+    background: white; border-radius: 28px; overflow: hidden;
+    box-shadow: 0 8px 40px rgba(13,27,62,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .location-card:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(13,27,62,0.14); }
+  .location-map {
+    height: 200px;
+    display: flex; align-items: center; justify-content: center; font-size: 64px;
+    position: relative;
+  }
+  .loc-map-1 { background: linear-gradient(135deg, #C8DEFF, #A0B8F0); }
+  .loc-map-2 { background: linear-gradient(135deg, #D4EDE4, #B0D8C8); }
+  .location-pin {
+    position: absolute;
+    width: 44px; height: 44px; background: var(--royal-blue);
+    border-radius: 50% 50% 50% 0; transform: rotate(-45deg);
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 8px 24px rgba(26,58,107,0.4);
+  }
+  .location-pin span { transform: rotate(45deg); font-size: 20px; }
+  .location-body { padding: 32px; }
+  .location-label {
+    font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--mid-blue); font-weight: 600; margin-bottom: 8px;
+  }
+  .location-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px; font-weight: 600; color: var(--deep-navy); margin-bottom: 16px;
+  }
+  .location-details { display: flex; flex-direction: column; gap: 10px; }
+  .location-detail {
+    display: flex; gap: 12px; align-items: flex-start;
+    font-size: 14px; color: var(--text-mid); line-height: 1.5;
+  }
+  .loc-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+  .location-actions { display: flex; gap: 12px; margin-top: 24px; }
+  .loc-btn {
+    flex: 1; padding: 12px; border-radius: 12px;
+    font-size: 13px; font-weight: 600; cursor: pointer;
+    text-align: center; text-decoration: none; transition: all 0.2s;
+    font-family: 'DM Sans', sans-serif;
+  }
+  .loc-btn-primary {
+    background: linear-gradient(135deg, var(--royal-blue), var(--mid-blue));
+    color: white; border: none;
+  }
+  .loc-btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+  .loc-btn-outline {
+    background: var(--ivory); border: 1px solid var(--powder-blue);
+    color: var(--royal-blue);
+  }
+  .loc-btn-outline:hover { background: var(--powder-blue); }
+
+  /* ── CTA ── */
+  #cta {
+    padding: 100px 0;
+    background: linear-gradient(140deg, #0D1B3E 0%, #1A3A6B 50%, #2B5C9E 100%);
+    position: relative; overflow: hidden;
+  }
+  #cta::before {
+    content: ''; position: absolute; inset: 0;
+    background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  .cta-orb {
+    position: absolute; border-radius: 50%;
+    background: radial-gradient(circle, rgba(196,165,90,0.15) 0%, transparent 70%);
+  }
+  .cta-orb-1 { width: 600px; height: 600px; right: -150px; top: -150px; }
+  .cta-inner {
+    position: relative; z-index: 1;
+    text-align: center; max-width: 700px; margin: 0 auto;
+  }
+  .cta-eyebrow {
+    font-size: 11.5px; letter-spacing: 0.15em; text-transform: uppercase;
+    color: var(--gold-light); font-weight: 600; margin-bottom: 20px;
+    display: block;
+  }
+  .cta-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(36px, 5vw, 58px); font-weight: 300; color: white;
+    line-height: 1.2; margin-bottom: 20px;
+  }
+  .cta-title em { font-style: italic; color: var(--gold-light); }
+  .cta-text {
+    font-size: 16px; line-height: 1.75; color: rgba(255,255,255,0.72);
+    margin-bottom: 48px;
+  }
+  .cta-actions { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .cta-divider {
+    margin: 60px 0 0; border: none;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    position: relative; z-index: 1;
+  }
+  .cta-contacts {
+    display: flex; justify-content: center; gap: 48px; margin-top: 40px;
+    position: relative; z-index: 1; flex-wrap: wrap;
+  }
+  .cta-contact {
+    display: flex; flex-direction: column; align-items: center; gap: 4px;
+    color: rgba(255,255,255,0.7); font-size: 13px;
+  }
+  .cta-contact strong {
+    color: white; font-size: 18px; font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: #07101F;
+    padding: 64px 0 32px;
+  }
+  .footer-grid {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 48px;
+  }
+  .footer-brand-logo {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 20px;
+  }
+  .footer-brand-icon {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: linear-gradient(135deg, var(--royal-blue), var(--sky-blue));
+    display: flex; align-items: center; justify-content: center; font-size: 20px;
+  }
+  .footer-brand-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px; font-weight: 600; color: white;
+  }
+  .footer-brand-name small { display: block; font-size: 11px; color: var(--text-light); font-family: 'DM Sans', sans-serif; font-weight: 400; }
+  .footer-tagline { font-size: 14px; color: #5A6A88; line-height: 1.65; margin-bottom: 24px; }
+  .footer-social { display: flex; gap: 12px; }
+  .social-btn {
+    width: 36px; height: 36px; border-radius: 10px;
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.1);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px; cursor: pointer; transition: all 0.2s; text-decoration: none;
+  }
+  .social-btn:hover { background: var(--royal-blue); border-color: var(--royal-blue); }
+  .footer-col h4 {
+    font-size: 12px; letter-spacing: 0.1em; text-transform: uppercase;
+    color: white; font-weight: 600; margin-bottom: 20px; font-family: 'DM Sans', sans-serif;
+  }
+  .footer-links { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+  .footer-links a {
+    text-decoration: none; color: #5A6A88; font-size: 14px;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--sky-blue); }
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 28px; display: flex; justify-content: space-between; align-items: center;
+    flex-wrap: wrap; gap: 12px;
+  }
+  .footer-copy { font-size: 13px; color: #3A4D6B; }
+  .footer-copy span { color: var(--sky-blue); }
+  .footer-legal { display: flex; gap: 24px; }
+  .footer-legal a { font-size: 12px; color: #3A4D6B; text-decoration: none; }
+  .footer-legal a:hover { color: var(--sky-blue); }
+
+  /* ── SCROLL ANIMATIONS ── */
+  .fade-up {
+    opacity: 0; transform: translateY(30px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-up.visible { opacity: 1; transform: translateY(0); }
+  .fade-up-d1 { transition-delay: 0.1s; }
+  .fade-up-d2 { transition-delay: 0.2s; }
+  .fade-up-d3 { transition-delay: 0.3s; }
+  .fade-up-d4 { transition-delay: 0.4s; }
+  .fade-up-d5 { transition-delay: 0.5s; }
+  .fade-up-d6 { transition-delay: 0.6s; }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .hero-inner { grid-template-columns: 1fr; }
+    .hero-visual { display: none; }
+    .about-grid, .why-grid { grid-template-columns: 1fr; gap: 48px; }
+    .about-float-badge { right: 0; }
+    .doctors-grid { grid-template-columns: 1fr 1fr; }
+    .services-grid { grid-template-columns: 1fr 1fr; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .stat-divider { display: none; }
+    .testimonials-grid { grid-template-columns: 1fr 1fr; }
+    .blogs-grid { grid-template-columns: 1fr; }
+    .locations-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .blogs-header { flex-direction: column; gap: 16px; align-items: flex-start; }
+  }
+  @media (max-width: 600px) {
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    .hero-stats { flex-direction: column; gap: 20px; }
+    .about-pillars { grid-template-columns: 1fr; }
+    .doctors-grid { grid-template-columns: 1fr; }
+    .services-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: 1fr 1fr; }
+    .testimonials-grid { grid-template-columns: 1fr; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .cta-contacts { gap: 24px; }
+    .footer-bottom { flex-direction: column; align-items: flex-start; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">
+    <div class="nav-logo-icon">🏥</div>
+    <div class="nav-logo-text">
+      <strong>London Harley Street</strong>
+      <span>Women & Fertility Centre · Chennai</span>
+    </div>
+  </div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#doctors">Doctors</a></li>
+    <li><a href="#locations">Locations</a></li>
+    <li><a href="#blogs">Health Insights</a></li>
+    <li><a href="#cta" class="nav-cta">Book Appointment</a></li>
+  </ul>
+  <button class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About Us</a>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#doctors" onclick="toggleMenu()">Expert Doctors</a>
+  <a href="#why" onclick="toggleMenu()">Why Choose Us</a>
+  <a href="#locations" onclick="toggleMenu()">Locations</a>
+  <a href="#blogs" onclick="toggleMenu()">Health Insights</a>
+  <a href="#cta" class="mobile-cta-btn" onclick="toggleMenu()">Book Appointment →</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
+  <div class="hero-pattern"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge">International Standards · Chennai</div>
+      <h1 class="hero-title">
+        Compassionate Care for<br><em>Every Woman's Journey</em>
+      </h1>
+      <p class="hero-subtitle">
+        Bringing London Harley Street's world-class expertise to Chennai — a sanctuary of advanced fertility, gynaecology and maternal medicine guided by 31+ years of transformative care.
+      </p>
+      <div class="hero-actions">
+        <a href="#cta" class="btn-primary">Book a Consultation →</a>
+        <a href="#services" class="btn-outline-white">Our Specialities</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="hero-stat-num">31+</div>
+          <div class="hero-stat-label">Years of Excellence</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">12,000+</div>
+          <div class="hero-stat-label">Babies Born</div>
+        </div>
+        <div>
+          <div class="hero-stat-num">98%</div>
+          <div class="hero-stat-label">Patient Satisfaction</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card fade-up">
+        <div class="hero-card-icon">🤱</div>
+        <div>
+          <div class="hero-card-title">Advanced IVF & ART</div>
+          <div class="hero-card-sub">State-of-the-art embryology lab</div>
+        </div>
+      </div>
+      <div class="hero-card fade-up fade-up-d2">
+        <div class="hero-card-icon">🫁</div>
+        <div>
+          <div class="hero-card-title">Fetal Medicine Unit</div>
+          <div class="hero-card-sub">Expert prenatal diagnostics</div>
+        </div>
+      </div>
+      <div class="hero-card fade-up fade-up-d3">
+        <div class="hero-card-icon">💙</div>
+        <div>
+          <div class="hero-card-title">High-Risk Pregnancy</div>
+          <div class="hero-card-sub">Dedicated perinatal team</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-visual fade-up">
+        <div class="about-img-bg">
+          <div class="about-img-inner">
+            <div class="about-img-icon">🌸</div>
+            <div class="about-img-caption">Where Science Meets the Art of Caring</div>
+          </div>
+        </div>
+        <div class="about-float-badge">
+          <div class="about-float-num">31<span style="font-size:22px;color:var(--gold)">+</span></div>
+          <div class="about-float-label">Years of<br>Trusted Excellence</div>
+        </div>
+      </div>
+      <div class="about-text fade-up fade-up-d2">
+        <div class="section-eyebrow">Our Story</div>
+        <h2 class="section-title">A Legacy Built on <em>Hope & Healing</em></h2>
+        <p class="section-lead">
+          Founded on the distinguished principles of London's Harley Street medical tradition, our centre in Chennai stands as a beacon of world-class women's healthcare — blending international clinical expertise with deeply personal, compassionate care.
+        </p>
+        <p style="font-size:15px;color:var(--text-mid);line-height:1.75;margin-top:16px;">
+          Across two carefully curated centres in Perungudi and Thalambur, we serve women at every stage of life — from adolescence through menopause, and every precious milestone in between, including the profound journey to parenthood.
+        </p>
+        <div class="about-pillars" style="margin-top:32px;">
+          <div class="pillar fade-up fade-up-d3">
+            <div class="pillar-icon">🎓</div>
+            <div class="pillar-title">International Training</div>
+            <div class="pillar-text">Physicians trained at premier London and global institutions</div>
+          </div>
+          <div class="pillar fade-up fade-up-d4">
+            <div class="pillar-icon">🔬</div>
+            <div class="pillar-title">Advanced Technology</div>
+            <div class="pillar-text">Cutting-edge embryology labs & diagnostic imaging</div>
+          </div>
+          <div class="pillar fade-up fade-up-d3">
+            <div class="pillar-icon">🌍</div>
+            <div class="pillar-title">Global Standards</div>
+            <div class="pillar-text">Protocols aligned with NICE, RCOG & WHO guidelines</div>
+          </div>
+          <div class="pillar fade-up fade-up-d4">
+            <div class="pillar-icon">💛</div>
+            <div class="pillar-title">Personalised Care</div>
+            <div class="pillar-text">Each woman's journey treated as uniquely her own</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOCTORS -->
+<section id="doctors">
+  <div class="section-inner">
+    <div class="doctors-header fade-up">
+      <div class="section-eyebrow">Our Specialists</div>
+      <h2 class="section-title">Meet the <em>Expert Team</em></h2>
+      <p class="section-lead" style="margin:0 auto;">World-class doctors who bring global expertise and genuine compassion to every consultation.</p>
+    </div>
+    <div class="doctors-grid">
+      <div class="doctor-card fade-up fade-up-d1">
+        <div class="doctor-photo doctor-photo-1">👩‍⚕️</div>
+        <div class="doctor-body">
+          <div class="doctor-title">Senior Consultant</div>
+          <div class="doctor-name">Dr. Priya Subramaniam</div>
+          <div class="doctor-quals">MBBS, MD (OBG), FRCOG (London)<br>Fellowship in Reproductive Medicine, UK</div>
+          <div class="doctor-tags">
+            <span class="doctor-tag">IVF & ART</span>
+            <span class="doctor-tag">Fertility</span>
+            <span class="doctor-tag">Endocrinology</span>
+          </div>
+        </div>
+      </div>
+      <div class="doctor-card fade-up fade-up-d2">
+        <div class="doctor-photo doctor-photo-2">👩‍⚕️</div>
+        <div class="doctor-body">
+          <div class="doctor-title">Lead Fetal Medicine</div>
+          <div class="doctor-name">Dr. Meera Krishnan</div>
+          <div class="doctor-quals">MBBS, DNB, DGO, PGPN<br>Fetal Medicine Specialist, Harley Street London</div>
+          <div class="doctor-tags">
+            <span class="doctor-tag">Fetal Medicine</span>
+            <span class="doctor-tag">High-Risk OB</span>
+            <span class="doctor-tag">Prenatal Dx</span>
+          </div>
+        </div>
+      </div>
+      <div class="doctor-card fade-up fade-up-d3">
+        <div class="doctor-photo doctor-photo-3">👩‍⚕️</div>
+        <div class="doctor-body">
+          <div class="doctor-title">Consultant Gynaecologist</div>
+          <div class="doctor-name">Dr. Ananya Nair</div>
+          <div class="doctor-quals">MBBS, MS (OBG), Laparoscopy Fellowship<br>Advanced Gynaecological Endoscopy, Germany</div>
+          <div class="doctor-tags">
+            <span class="doctor-tag">Laparoscopy</span>
+            <span class="doctor-tag">PCOS</span>
+            <span class="doctor-tag">Endometriosis</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="services-bg-orb services-bg-orb-1"></div>
+  <div class="services-bg-orb services-bg-orb-2"></div>
+  <div class="section-inner">
+    <div class="services-header fade-up">
+      <div class="section-eyebrow">What We Offer</div>
+      <h2 class="section-title">Comprehensive <em>Medical Services</em></h2>
+      <p class="section-lead">Every aspect of women's reproductive health, under one trusted roof.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card fade-up fade-up-d1">
+        <div class="service-icon">🔬</div>
+        <div class="service-title">Gynaecology</div>
+        <div class="service-desc">Comprehensive gynaecological care covering PCOS, fibroids, endometriosis, abnormal bleeding, HPV, colposcopy, and minimally invasive laparoscopic surgery with expert precision.</div>
+        <a href="#cta" class="service-link">Explore Service →</a>
+      </div>
+      <div class="service-card fade-up fade-up-d2">
+        <div class="service-icon">🌱</div>
+        <div class="service-title">Fertility Treatment</div>
+        <div class="service-desc">Personalised fertility assessments, ovulation induction, IUI, male factor evaluation, and tailored treatment plans that address each couple's unique fertility profile.</div>
+        <a href="#cta" class="service-link">Explore Service →</a>
+      </div>
+      <div class="service-card fade-up fade-up-d3">
+        <div class="service-icon">✨</div>
+        <div class="service-title">IVF & Advanced ART</div>
+        <div class="service-desc">State-of-the-art IVF, ICSI, embryo freezing, PGT-A genetic screening, egg donation, and surrogacy coordination — all within our internationally certified embryology laboratory.</div>
+        <a href="#cta" class="service-link">Explore Service →</a>
+      </div>
+      <div class="service-card fade-up fade-up-d4">
+        <div class="service-icon">🤱</div>
+        <div class="service-title">High-Risk Pregnancy</div>
+        <div class="service-desc">Specialised maternal-fetal medicine for twin pregnancies, pre-eclampsia, gestational diabetes, placenta previa, and complex obstetric conditions requiring expert oversight.</div>
+        <a href="#cta" class="service-link">Explore Service →</a>
+      </div>
+      <div class="service-card fade-up fade-up-d5">
+        <div class="service-icon">👶</div>
+        <div class="service-title">Fetal Medicine</div>
+        <div class="service-desc">Advanced prenatal diagnostics including NT scan, anomaly scanning, fetal echocardiography, amniocentesis, CVS, and targeted ultrasound for detailed fetal assessment.</div>
+        <a href="#cta" class="service-link">Explore Service →</a>
+      </div>
+      <div class="service-card fade-up fade-up-d6">
+        <div class="service-icon">📡</div>
+        <div class="service-title">Scans & Diagnostics</div>
+        <div class="service-desc">HD 3D/4D ultrasound, Doppler studies, saline infusion sonography, hysterosalpingography (HSG), hormonal panels, genetic carrier testing, and complete reproductive workups.</div>
+        <a href="#cta" class="service-link">Explore Service →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div class="section-inner">
+    <div class="why-grid">
+      <div class="fade-up">
+        <div class="section-eyebrow">Why Us</div>
+        <h2 class="section-title">The <em>Difference</em> You Deserve</h2>
+        <p class="section-lead" style="margin-bottom:36px;">We believe exceptional medical care is as much about how you feel as it is about the treatment you receive.</p>
+        <div class="why-features">
+          <div class="why-feature fade-up fade-up-d1">
+            <div class="why-icon">🏆</div>
+            <div>
+              <div class="why-feature-title">Harley Street Heritage</div>
+              <div class="why-feature-text">Our clinical protocols, training ethos and patient standards are rooted in the globally respected Harley Street tradition of medical excellence.</div>
+            </div>
+          </div>
+          <div class="why-feature fade-up fade-up-d2">
+            <div class="why-icon">🔬</div>
+            <div>
+              <div class="why-feature-title">Accredited Embryology Lab</div>
+              <div class="why-feature-text">ISO-certified laboratory with the latest ICSI, time-lapse incubation and vitrification technologies for the highest possible success rates.</div>
+            </div>
+          </div>
+          <div class="why-feature fade-up fade-up-d3">
+            <div class="why-icon">💬</div>
+            <div>
+              <div class="why-feature-title">Multilingual Care Team</div>
+              <div class="why-feature-text">Our counsellors and doctors communicate in Tamil, Telugu, Hindi, and English — ensuring comfort and clarity throughout your journey.</div>
+            </div>
+          </div>
+          <div class="why-feature fade-up fade-up-d4">
+            <div class="why-icon">🕐</div>
+            <div>
+              <div class="why-feature-title">Continuity of Care</div>
+              <div class="why-feature-text">From first consultation through to the joy of delivery, the same dedicated team walks beside you — no handoffs, no strangers at critical moments.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="why-visual fade-up fade-up-d2">
+        <div class="why-visual-inner">
+          <div class="why-visual-icon">🌸</div>
+          <h3 class="why-visual-title">Where Every <em>Story</em><br>Finds Its Ending</h3>
+          <p class="why-visual-text">
+            Thousands of families have begun their chapters with us. We carry that privilege with the deepest sense of responsibility — always putting your wellbeing, dignity and dreams at the centre of everything we do.
+          </p>
+          <div class="why-accred">
+            <span class="accred-badge">ISO Certified</span>
+            <span class="accred-badge">RCOG Standards</span>
+            <span class="accred-badge">NICE Protocols</span>
+            <span class="accred-badge">WHO Guidelines</span>
+            <span class="accred-badge">JCI Aligned</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats">
+  <div class="section-inner">
+    <div class="stats-grid">
+      <div class="stat-item fade-up">
+        <div class="stat-num">31<span>+</span></div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+      <div class="stat-item fade-up fade-up-d2">
+        <div class="stat-num">12<span>k+</span></div>
+        <div class="stat-label">Babies Delivered</div>
+      </div>
+      <div class="stat-item fade-up fade-up-d3">
+        <div class="stat-num">8<span>k+</span></div>
+        <div class="stat-label">IVF Success Stories</div>
+      </div>
+      <div class="stat-item fade-up fade-up-d4">
+        <div class="stat-num">98<span>%</span></div>
+        <div class="stat-label">Patient Satisfaction</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="section-inner">
+    <div class="testimonials-header fade-up">
+      <div class="section-eyebrow">Patient Stories</div>
+      <h2 class="section-title">Voices of <em>Hope & Gratitude</em></h2>
+      <p class="section-lead" style="margin:0 auto;">Real stories from the families who trusted us with their most precious moments.</p>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card fade-up fade-up-d1">
+        <span class="quote-icon">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">After three failed IVF cycles elsewhere, I came to London Harley Street with very little hope. Dr. Priya's meticulous approach and genuine warmth completely changed my experience. Today, I hold my baby girl and weep with gratitude.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar av-1">👩</div>
+          <div>
+            <div class="author-name">Shalini R.</div>
+            <div class="author-label">IVF Patient, Perungudi</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card featured fade-up fade-up-d2">
+        <span class="quote-icon">"</span>
+        <div class="stars" style="color:var(--gold-light)">★★★★★</div>
+        <p class="testimonial-text">My pregnancy was high-risk from week 12. The fetal medicine team here monitored every detail with such precision and care. Their calmness gave me strength. I felt genuinely safe — not just medically, but emotionally too.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:rgba(255,255,255,0.15)">👩</div>
+          <div>
+            <div class="author-name">Divya K.</div>
+            <div class="author-label">High-Risk Pregnancy, Thalambur</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card fade-up fade-up-d3">
+        <span class="quote-icon">"</span>
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">My PCOS had been treated dismissively for years. Here, they took the time to listen, run a full workup, and design a plan that actually worked. I'm now naturally pregnant for the first time. The difference in care quality is staggering.</p>
+        <div class="testimonial-author">
+          <div class="author-avatar av-3">👩</div>
+          <div>
+            <div class="author-name">Kavitha M.</div>
+            <div class="author-label">Fertility Patient, Chennai</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BLOGS -->
+<section id="blogs">
+  <div class="section-inner">
+    <div class="blogs-header fade-up">
+      <div>
+        <div class="section-eyebrow">Health Insights</div>
+        <h2 class="section-title" style="margin-bottom:0">Latest from Our <em>Experts</em></h2>
+      </div>
+      <a href="#" style="color:var(--mid-blue);font-size:14px;font-weight:600;text-decoration:none;white-space:nowrap;">View All Articles →</a>
+    </div>
+    <div class="blogs-grid">
+      <div class="blog-card fade-up fade-up-d1">
+        <div class="blog-thumb blog-thumb-1">🧬</div>
+        <div class="blog-body">
+          <span class="blog-tag">IVF & Fertility</span>
+          <div class="blog-title">Understanding IVF Success Rates: What Every Couple Should Know</div>
+          <div class="blog-excerpt">Success rates in IVF are influenced by age, egg quality, embryo grading, uterine receptivity, and the precision of the lab. Our specialists explain what the numbers really mean for you.</div>
+          <div class="blog-meta">
+            <span class="blog-date">June 2025</span>
+            <a href="#" class="blog-read">Read More →</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-card fade-up fade-up-d2">
+        <div class="blog-thumb blog-thumb-2">🌸</div>
+        <div class="blog-body">
+          <span class="blog-tag">Gynaecology</span>
+          <div class="blog-title">PCOS in Indian Women: Myths Debunked & Truths Revealed</div>
+          <div class="blog-excerpt">Polycystic ovary syndrome affects 1 in 5 Indian women, yet misconceptions abound. Dr. Ananya Nair separates fact from fiction and outlines an evidence-based path to managing PCOS effectively.</div>
+          <div class="blog-meta">
+            <span class="blog-date">May 2025</span>
+            <a href="#" class="blog-read">Read More →</a>
+          </div>
+        </div>
+      </div>
+      <div class="blog-card fade-up fade-up-d3">
+        <div class="blog-thumb blog-thumb-3">👶</div>
+        <div class="blog-body">
+          <span class="blog-tag">Fetal Medicine</span>
+          <div class="blog-title">The NT Scan: Why This 12-Week Ultrasound Matters So Much</div>
+          <div class="blog-excerpt">The nuchal translucency scan is a pivotal window into fetal wellbeing. Our fetal medicine specialist explains what it measures, what it can detect, and how results guide your pregnancy care plan.</div>
+          <div class="blog-meta">
+            <span class="blog-date">April 2025</span>
+            <a href="#" class="blog-read">Read More →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LOCATIONS -->
+<section id="locations">
+  <div class="section-inner">
+    <div class="locations-header fade-up">
+      <div class="section-eyebrow">Our Centres</div>
+      <h2 class="section-title">Find Us in <em>Chennai</em></h2>
+      <p class="section-lead" style="margin:0 auto;">Two thoughtfully located centres — designed to bring premium fertility and women's healthcare closer to where you live.</p>
+    </div>
+    <div class="locations-grid">
+      <div class="location-card fade-up fade-up-d1">
+        <div class="location-map loc-map-1">
+          <div class="location-pin"><span>📍</span></div>
+        </div>
+        <div class="location-body">
+          <div class="location-label">Branch 1 · South Chennai</div>
+          <div class="location-name">Perungudi Centre</div>
+          <div class="location-details">
+            <div class="location-detail"><span class="loc-icon">📍</span><span>No. 14, OMR Road, Perungudi, Chennai — 600 096</span></div>
+            <div class="location-detail"><span class="loc-icon">📞</span><span>+91 98400 00001</span></div>
+            <div class="location-detail"><span class="loc-icon">⏰</span><span>Mon – Sat: 8:00 AM – 8:00 PM<br>Sun: 9:00 AM – 1:00 PM</span></div>
+            <div class="location-detail"><span class="loc-icon">🚇</span><span>Closest Metro: Perungudi Station (5 min walk)</span></div>
+          </div>
+          <div class="location-actions">
+            <a href="#cta" class="loc-btn loc-btn-primary">Book Here</a>
+            <a href="#" class="loc-btn loc-btn-outline">Get Directions</a>
+          </div>
+        </div>
+      </div>
+      <div class="location-card fade-up fade-up-d2">
+        <div class="location-map loc-map-2">
+          <div class="location-pin" style="background:var(--mid-blue);"><span>📍</span></div>
+        </div>
+        <div class="location-body">
+          <div class="location-label">Branch 2 · East Chennai</div>
+          <div class="location-name">Thalambur Centre</div>
+          <div class="location-details">
+            <div class="location-detail"><span class="loc-icon">📍</span><span>No. 7, ECR Link Road, Thalambur, Chennai — 600 130</span></div>
+            <div class="location-detail"><span class="loc-icon">📞</span><span>+91 98400 00002</span></div>
+            <div class="location-detail"><span class="loc-icon">⏰</span><span>Mon – Sat: 8:00 AM – 8:00 PM<br>Sun: 9:00 AM – 1:00 PM</span></div>
+            <div class="location-detail"><span class="loc-icon">🚗</span><span>Ample free parking available on-site</span></div>
+          </div>
+          <div class="location-actions">
+            <a href="#cta" class="loc-btn loc-btn-primary">Book Here</a>
+            <a href="#" class="loc-btn loc-btn-outline">Get Directions</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-orb cta-orb-1"></div>
+  <div class="section-inner">
+    <div class="cta-inner fade-up">
+      <span class="cta-eyebrow">✦ Begin Your Journey Today</span>
+      <h2 class="cta-title">Your Path to <em>Parenthood</em><br>Starts Here</h2>
+      <p class="cta-text">
+        Whether you're beginning your fertility journey, navigating a complex pregnancy, or seeking expert gynaecological care — our team is ready to walk beside you with knowledge, compassion, and hope.
+      </p>
+      <div class="cta-actions">
+        <a href="tel:+919840000001" class="btn-primary">📞 Call Now</a>
+        <a href="#" class="btn-outline-white">📅 Book Online</a>
+      </div>
+    </div>
+    <hr class="cta-divider">
+    <div class="cta-contacts">
+      <div class="cta-contact">
+        <span>Perungudi Centre</span>
+        <strong>+91 98400 00001</strong>
+      </div>
+      <div class="cta-contact">
+        <span>Thalambur Centre</span>
+        <strong>+91 98400 00002</strong>
+      </div>
+      <div class="cta-contact">
+        <span>General Enquiries</span>
+        <strong>info@londonharleyst.in</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="section-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-logo">
+          <div class="footer-brand-icon">🏥</div>
+          <div class="footer-brand-name">
+            London Harley Street
+            <small>Women & Fertility Centre · Chennai</small>
+          </div>
+        </div>
+        <p class="footer-tagline">Bringing world-class women's healthcare to Chennai with 31+ years of expertise, compassion and international clinical standards.</p>
+        <div class="footer-social">
+          <a href="#" class="social-btn">📘</a>
+          <a href="#" class="social-btn">📸</a>
+          <a href="#" class="social-btn">▶️</a>
+          <a href="#" class="social-btn">🐦</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><a href="#services">Gynaecology</a></li>
+          <li><a href="#services">Fertility Treatment</a></li>
+          <li><a href="#services">IVF & ART</a></li>
+          <li><a href="#services">High-Risk Pregnancy</a></li>
+          <li><a href="#services">Fetal Medicine</a></li>
+          <li><a href="#services">Scans & Diagnostics</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#doctors">Our Doctors</a></li>
+          <li><a href="#why">Why Choose Us</a></li>
+          <li><a href="#testimonials">Patient Stories</a></li>
+          <li><a href="#blogs">Health Insights</a></li>
+          <li><a href="#cta">Book Appointment</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Centres</h4>
+        <ul class="footer-links">
+          <li><a href="#locations">Perungudi, Chennai</a></li>
+          <li><a href="#locations">Thalambur, Chennai</a></li>
+          <li><a href="#">Emergency Contact</a></li>
+          <li><a href="#">Patient Portal</a></li>
+          <li><a href="#">Career Opportunities</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-copy">
+        © 2025 <span>London Harley Street Women & Fertility Centre</span>. All rights reserved.
+      </div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu
+  function toggleMenu() {
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+
+  // Scroll animations
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+  // Nav scroll effect
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    if (window.scrollY > 60) {
+      nav.style.boxShadow = '0 4px 30px rgba(13,27,62,0.12)';
+    } else {
+      nav.style.boxShadow = 'none';
+    }
+  });
+
+  // Counter animation
+  const counters = document.querySelectorAll('.stat-num');
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting && !e.target.dataset.animated) {
+        e.target.dataset.animated = true;
+        const text = e.target.innerHTML;
+        const match = text.match(/(\d+)/);
+        if (match) {
+          const target = parseInt(match[1]);
+          let current = 0;
+          const suffix = text.replace(/\d+/, '');
+          const step = Math.ceil(target / 50);
+          const timer = setInterval(() => {
+            current = Math.min(current + step, target);
+            e.target.innerHTML = current + suffix;
+            if (current >= target) clearInterval(timer);
+          }, 30);
+        }
+      }
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c => counterObserver.observe(c));
+</script>
+</body>
+</html>
